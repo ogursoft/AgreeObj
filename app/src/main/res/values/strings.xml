@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AgreeObj</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="prefs_header">Prefs</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your name</string>
+    <string name="password_title">Your password</string>
+    <string name="localurl_title">Local url</string>
+    <string name="remoteurl_title">Remote url</string>
+
+    <!-- Sync Preferences -->
+</resources>

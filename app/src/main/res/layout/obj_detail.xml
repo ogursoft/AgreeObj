@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivIco"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/textObjNumber"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/textObjData"
+        android:layout_toRightOf="@id/ivIco"
+        android:text="Obj number"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textObjData"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="price"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textSize"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textObjNumber"
+        android:layout_toRightOf="@id/ivIco"
+        android:layout_toEndOf="@id/ivIco"
+        android:textColor="#666"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="sd"
+        android:id="@+id/textType"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textSize"
+        android:layout_toRightOf="@id/ivIco"
+        android:textColor="#666"/>
+
+</RelativeLayout>

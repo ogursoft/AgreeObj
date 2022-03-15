@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/prefs_header">
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="@string/signature_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="password"
+            app:title="@string/password_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="localurl"
+            app:title="@string/localurl_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="remoteurl"
+            app:title="@string/remoteurl_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
